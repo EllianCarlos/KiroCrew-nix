@@ -138,3 +138,10 @@ SESSION_SUMMARY.md
 
 # Internal migration worklog — deliberately untracked (contains pre-scrub notes)
 MOCHI_MIGRATION.md
+
+# Nix build output symlinks (nix build / nix flake check)
+/result
+/result-*
+
+# direnv's cached dev shell and GC root (see .envrc)
+/.direnv/
